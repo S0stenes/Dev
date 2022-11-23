@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&family=Roboto:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +9,11 @@
 /* Corpo da página */
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-image:radial-gradient(#a0a0a0,#ccc);
     width: 100%;
     height: 100vh;
     position: relative;
+    font-family: 'Roboto';
 }
 
 /* Imagem flutuante */
@@ -65,10 +68,13 @@ li a {
     display: inline-block;
     color: rgb(12, 11, 11);
     text-decoration: none;
-    padding: 14px 16px;
+    padding: 20px 16px;
+    margin-top:5px;
 }
 
 #menu li > a:hover {
     color:white;
     background-color: black;
+    font-family: 'Montserrat';
+    border-radius: 40px;
 }
